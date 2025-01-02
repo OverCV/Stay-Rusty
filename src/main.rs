@@ -49,9 +49,9 @@ fn main() {
     }
 }
 
-fn ratio(num: f32, den: f32) -> Result<f32, &str> {
+fn ratio(num: f32, den: f32) -> Result<f32, String> {
     if den == 0.0 {
-        Err("Indetermined")
+        Err("Indetermined".to_string())
     } else {
         Ok(num / den)
     }
