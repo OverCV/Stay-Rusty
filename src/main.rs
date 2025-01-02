@@ -47,12 +47,11 @@ fn main() {
         Ok(res) => println!("Ratio result {res}"),
         Err(msg) => println!("Error: {msg}"),
     }
-    
 }
 
-fn ratio(num: f32, den: f32) -> Result<f32, String> {
+fn ratio(num: f32, den: f32) -> Result<f32, &str> {
     if den == 0.0 {
-        Err("Indetermined".to_string())
+        Err("Indetermined")
     } else {
         Ok(num / den)
     }
