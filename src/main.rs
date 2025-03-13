@@ -40,7 +40,7 @@ fn main() {
         let rnd_num: i32 = rng.gen_range(1..=100);
         let rnd_char = rng.gen_range('A'..='Z');
     }
-    
+
     // Error handling
 
     match ratio(17.0, 2.5) {
