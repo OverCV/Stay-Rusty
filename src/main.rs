@@ -6,7 +6,7 @@ fn main() {
 
     /* Variables (int, float, string) */
 
-    let one_signed_integer8: i8 = -1; /* (2^8)-1 - Zero sum */
+    let one_signed_integer8: i8 = 8; /* (2^8)-1 - Zero sum */
     let one_signed_int32: i32 = 2;
 
     let one_unsigned_i8: u8 = 1; /* (2^8)-1 - Positive sum */
