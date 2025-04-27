@@ -5,7 +5,7 @@ fn main() {
     println!("Hello algorithms!");
 
     /* Variables (int, float, string) */
-
+ 
     let one_signed_integer8: i8 = 8; /* (2^8)-1 - Zero sum */
     let one_signed_int32: i32 = 2;
 
@@ -39,6 +39,7 @@ fn main() {
         // Random number and character
         let rnd_num: i32 = rng.gen_range(1..=100);
         let rnd_char = rng.gen_range('A'..='Z');
+        println!("Random number: {rnd_num} and character: {rnd_char}");
     }
 
     // Error handling
