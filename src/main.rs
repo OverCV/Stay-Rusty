@@ -5,7 +5,7 @@ fn main() {
     println!("Hello algorithms!");
 
     /* Variables (int, float, string) */
- 
+
     let one_signed_integer8: i8 = 8; /* (2^8)-1 - Zero sum */
     let one_signed_int32: i32 = 2;
 
